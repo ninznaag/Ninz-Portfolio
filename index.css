@@ -373,7 +373,8 @@
 
 	#about-me-pic {
 		border-radius: 50%;
-		height: 200px;
+		height: 50vw !important;
+		width: 50vw !important;
 	}
 
 	.resume {
@@ -442,6 +443,12 @@
 /*For medium screen*/
 
 @media only screen and (max-width: 960px) {
+
+	#about-me-pic {
+		border-radius: 50%;
+		height: 25vw;
+		width: 25vw;
+	}
 
 	.award-card-container {
 		height: 90px;
