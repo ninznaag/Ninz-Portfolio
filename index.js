@@ -106,7 +106,7 @@ toolsBtn.addEventListener("click", () => {
 
 			<div class="mt-2 d-flex justify-content-center mt-4" data-aos="fade-up" data-aos-duration="2000">				
 				<div class="container-tools position-relative" data-aos="fade-up" data-aos-duration="2000">
-					<img class="skills-icon" src="images/mongoDB-logo-nobg.png">
+					<img class="skills-icon" src="images/MongoDB-logo-nobg.png">
 					<div class="overlay">MongoDB</div>
 				</div>
 				<div class="container-tools position-relative mx-3 mx-md-3 mx-lg-4" data-aos="fade-up" data-aos-duration="2000">
