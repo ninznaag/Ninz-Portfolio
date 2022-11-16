@@ -1,0 +1,473 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 50px;
+	width: 60px;
+}
+
+.navbar {
+	z-index: 1;
+}
+
+.nav-item, .contact-subtitle, .phone-text, .email-text {
+	font-family: 'Kalam', cursive;
+}
+
+.nav-item:hover {
+	background: #6d6875;
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+}
+
+.nav-link:hover {
+	color: #ffc8dd !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.fa-burger {
+	 color: #ffc8dd !important;
+	 font-size: 28px;
+}
+
+.home-section-img {
+	background-image: url("./images/home-bg-bw.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+
+.side-nav {
+	top: 25%;
+	left: 0;
+}
+
+.side-nav-icon {
+  text-align: left;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.8s;
+}
+
+.side-nav-icon:hover {
+	color: #fff;
+	transform: translate(25px, 0px);
+}
+
+.side-nav-icon i {
+	font-size: 25px;
+	transition: all 0.5s;
+}
+
+.side-nav-icon i:hover {
+	transform: rotate(360deg);
+}
+
+.side-nav-line {
+	border-left: 1px solid white;
+	height: 100px;
+}
+
+.side-nav-button {
+	transform: rotate(-90deg);
+	border: 1px solid #F4487C;
+	color: white;
+	background-color: rgba(255,255,255,0.2);
+	font-family: 'Corben', cursive;
+	font-size: 0.8rem;
+	top: 32.5px;
+	right: 32.5px;
+}
+
+.side-nav-button:hover, .resume:hover {
+	color: #F4487C;
+}
+
+.facebook, .instagram, .linkedin, .call-to-action, .about-me-text, .resume-text, .address-text, .phone-text, .email-text {
+	color: #F99BB7;
+}
+
+.text-block {
+	background-color: rgba(255,255,255,0.2);
+	font-family: 'Corben', cursive;
+	color: white;
+	width: 60%;
+}
+
+.home-hi {
+	font-size: 1.25rem;
+}
+
+.home-fname, .me, .skills-header, .projects-header {
+	font-size: 4rem;
+	letter-spacing: 5px;
+}
+
+.home-lname, .about-me-header, .contact-header {
+	font-size: 3rem;
+	letter-spacing: 5px;
+}
+
+.font-pink, .me, .skills-header, .projects-header, .contact-header, .contact-info-header {
+	color: #F4487C;
+}
+
+.call-to-action {
+	border: 1px solid #F4487C;
+	background: black;
+	box-shadow: -10px 10px white;
+}
+
+.call-to-action:hover {
+	color: white;
+}
+
+.phone {
+	transform: rotate(-20deg);
+}
+
+.home-button {
+	margin-top: 150px;
+}
+
+.about-me-header, .skills-my {
+	color: white;
+	font-family: 'Corben', cursive;
+	font-size: 3rem;
+}
+
+.about-me-pic {
+	background-image: url("./images/scattered-forcefields-nobg.png");
+	background-size: 400px;
+}
+
+#about-me-pic {
+	border-radius: 50%;
+	height: 340px;
+}
+
+.award-card {
+	border: 1px solid #F4487C;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #8f8f8f;
+}
+
+.award-card-container {
+	height: 90px;
+	width: 500px;
+}
+
+.awards-icon {
+	color: white;
+}
+
+.card-number {
+	color: #F99BB7;
+	font-weight: bold;
+	font-family: 'Corben', cursive;
+}
+
+.card-title {
+	font-size: 20px;
+	font-family: 'Kalam', cursive;
+	color: white;
+	text-align: center;
+}
+
+.about-me-text, .address-text {
+	text-align: justify;
+	font-family: 'Kalam', cursive;
+	font-size: 17px;
+}
+
+.resume-text {
+	color: white;
+	font-family: 'Kalam', cursive;
+}
+.resume, .capstone-1, .new-portfolio {
+	border: 1px solid #F4487C;
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+	font-family: 'Kalam', cursive;
+}
+
+.skills-subtitle, .skill-card {
+	color: white;
+	font-family: 'Corben', cursive;
+}
+
+.skills-button {
+	border: 1px solid #F4487C;
+	color: white;
+	background-color: rgba(255,255,255,0.2);
+	font-family: 'Corben', cursive;
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+
+.skills-button:hover {
+	color: #F4487C;
+}
+
+.web-icon {
+	color: white;
+	font-size: 40px;
+	border-radius: 10px;
+	background-color: #F4487C;
+}
+
+.skill-card {
+	background-color: rgba(255,255,255,0.2);
+	box-shadow: 10px 10px 5px #8f8f8f;
+	height: 250px;
+	width: 275px;
+	z-index: 0;
+}
+
+.skill-card-title {
+	font-family: 'Kalam', cursive;
+	color: #F99BB7;
+}
+
+.skills-list, .form-control {
+	font-family: 'Kalam', cursive;
+}
+
+.project-card-1 {
+	font-family: 'Kalam', cursive;
+	height: 200px;
+	width: 300px;
+	background-color: rgba(255,255,255,0.2);
+	margin-left: 250px;
+	z-index: 0;
+}
+
+.project-card-2 {
+	font-family: 'Kalam', cursive;
+	height: 200px;
+	width: 300px;
+	background-color: rgba(255,255,255,0.2);
+	margin-left: 150px;
+	z-index: 0;
+}
+
+.project-img-link {
+	cursor: pointer;
+	z-index: 1;
+	position: relative;
+}
+
+.api-bg {
+	height: 142px;
+}
+
+.contact-header, .contact-info-header, .address-header, .phone-header, .email-header {
+	font-family: 'Corben', cursive;
+}
+
+.input-fname, .input-lname, .input-email, .input-phone {
+	width: 250px;
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid #F4487C;
+}
+
+.input-message {
+	width: 517px;
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid #F4487C;
+}
+
+.btn-submit {
+	background-color: #F4487C;
+	border: 1px solid #F4487C;
+	color: white;
+	font-family: 'Kalam', cursive;
+}
+
+.footer {	
+	color: white;
+	font-family: 'Kalam', cursive;
+	background-color: rgba(255,255,255,0.2);
+	margin-top: 340px;
+}
+
+.footer-text {
+	margin-bottom: 0 !important;
+}
+
+.nbn {
+	color: #F4487C;
+}
+
+.skills-icon {
+	border: 1px solid  #ffc0cb;
+	border-radius: 20%;
+	background-color: #ffc0cb;
+	height: 90px;
+	width: 90px;
+	box-shadow: 5px 5px 5px #8f8f8f;
+}
+
+.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1; 
+	width: 90px;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Kalam', cursive;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.container-tools:hover .overlay {
+	opacity: 1;
+}
+
+
+/*For small screen*/
+
+@media only screen and (max-width: 620px) {
+
+	.nav-item {
+		text-align: center;
+		margin-left: 25px;
+	}
+
+	.nav-link:hover {
+		color: #ffc8dd !important;
+		background: #6d6875;
+		border-radius: 5px;
+	}
+
+	.text-block {
+		width: 90%;
+	}
+
+	.home-hi {
+		text-align: center;
+	}
+
+	.home-fname, .home-lname {
+		font-size: 3rem;
+	}
+
+	.about-me-pic {
+		margin-top: 50px;
+	}
+
+	#about-me-pic {
+		border-radius: 50%;
+		height: 200px;
+	}
+
+	.resume {
+		margin-left: 20px;
+	}
+	.award-card-container {
+		height: 25px;
+		width: 270px;
+		display: flex;
+	}
+
+	.card-number {
+		font-size: 0.8rem;
+	}
+
+	.card-title {
+		font-size: 0.5rem;
+	}
+
+	.skills-my {
+		font-size: 2rem;
+		padding-top: 100px;
+	}
+
+	.skills-header, .projects-header {
+		font-size: 2rem;
+	}
+
+	.skills-div {
+		padding-top: 10px;
+	}
+
+	.project-card-1 {
+		margin-left: 0px;
+	}
+
+	.contact-header-div {
+		margin-top: 0;
+	}
+
+	.input-fname, .input-lname, .input-email, .input-phone {
+		width: 50%;
+	}
+
+	.side-nav {
+		top: 0;
+		position: relative !important;
+		text-align: center;
+	}
+
+	.side-nav-button {
+		position: initial !important;
+		border: 1px solid #F4487C;
+		color: white;
+		background-color: rgba(255,255,255,0.2);
+		font-family: 'Corben', cursive;
+		font-size: 0.8rem;
+	}
+
+	.footer {
+		margin-top: 80px;
+	}
+
+}
+
+/*For medium screen*/
+
+@media only screen and (max-width: 960px) {
+
+	.award-card-container {
+		height: 90px;
+		width: 322px;
+	}
+
+	.card-number {
+		font-size: 1.5rem;
+	}
+
+	.skills-my {
+		padding-top: 100px;
+	}
+	.project-card-1 {
+		margin-left: 0px;
+	}
+
+	.contact-header {
+		margin-top: 100px !important;
+	}
+
+	.footer {
+		margin-top: 325px;
+	}
+
+	.footer-text {
+		margin-bottom: 0 !important;
+	}
+}
